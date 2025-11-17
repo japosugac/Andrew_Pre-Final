@@ -1,4 +1,14 @@
-# Andrew_Pre-Final
+# Andrew_Pre-Final Project
 
-## Members
-- John Andrew Posugac  
+## Project Title
+
+## Short Overview
+
+## How to Run the Project
+
+## Frameworks / Libraries Used
+- HTML
+- CSS
+- JS
+
+## Screenshot of the Website
