@@ -30,4 +30,4 @@ It covers:
 3. Open `index.html` in your browser to view the site.
 
 ## Deployment Link
-https://japosugac.github.io/Andrew_Pre-Final/?authuser=0 
+[https://japosugac.github.io/Andrew_Pre-Final/?authuser=0 ](https://japosugac.github.io/Andrew_Pre-Final/)
