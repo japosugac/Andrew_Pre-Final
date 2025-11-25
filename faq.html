@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GenAI Project — FAQs</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg no-collapse">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="index.html">GenAI Project</a>
+      <div class="navbar-collapse">
+        <ul class="navbar-nav ms-auto gap-3">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">FAQs</a></li>
+          <li class="nav-item"><a class="nav-link" href="ethics.html">Ethical Use</a></li>
+          <li class="nav-item"><a class="nav-link" href="article.html">Article</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container page-wrap" style="max-width:1100px;">
+
+    <header class="mb-3 reveal">
+      <h1 class="h3 mb-2">Frequently Asked Questions — Generative AI</h1>
+      <p class="text-muted mb-0">Expanded, student-friendly explanations based on the official sources provided.</p>
+    </header>
+
+    <section class="mb-4 reveal">
+      <div class="accordion" id="faqAccordion">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+              What is Generative AI?
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              <p>Generative AI refers to systems designed to produce new content — text, images, audio, videos, or even code — by learning from large datasets. Unlike traditional AI that mainly classifies or predicts, generative models “create” something new based on patterns learned during training.</p>
+              <p>According to Microsoft’s AI 101 resource, Generative AI works by identifying structures in training data and then using those learned patterns to output original responses. These outputs aren’t random; they follow statistical relationships that the model learned, which is why the content can feel coherent and relevant to the prompt given.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+              How does it work?
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              <p>Generative AI models — especially large language models (LLMs) — work by predicting the most likely next token or piece of data. Microsoft explains that these models undergo two stages: *training* and *inference*. During training, the model processes billions of examples, learning how words, sentences, and ideas connect. It essentially learns probability patterns in human language.</p>
+              <p>During inference (when a user types a prompt), the model uses what it learned to generate new content. A key factor is the “transformer architecture,” which allows the AI to understand context efficiently. The output depends on sampling methods like temperature and top-k, which shape how creative or factual the response becomes.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+              What are examples of GenAI tools?
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              <p>Based on the Zapier resource, examples of generative AI tools include text-generation models (ChatGPT, Claude, Gemini), image generators (Midjourney, DALL·E), video tools (RunwayML), coding assistants (GitHub Copilot), and audio/music generators. These platforms use their own generative models to create content in different formats.</p>
+              <p>Zapier highlights that these tools help with productivity, creativity, automation, and prototyping. Many apps now integrate AI features directly into their services, making generative AI accessible even to people with no technical background — writers, designers, students, and business owners can all benefit from its capabilities.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+              What can GenAI do (strengths)?
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              <p>The University of Leeds states that generative AI is very effective for producing drafts quickly, summarizing long information, generating ideas, enhancing creativity, and providing immediate examples for learning. It can handle repetitive writing tasks, propose solutions, or create unique outputs such as images or charts.</p>
+              <p>Its strength comes from speed and scale — it can process and generate huge amounts of information much faster than humans. Leeds also emphasizes that GenAI works best when paired with human review, meaning it amplifies productivity but should not fully replace critical thinking or decision-making.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+              What are its limitations or risks?
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              <p>The ICAEW article highlights major limitations such as hallucination (AI generating false but confident-sounding information), bias from training data, lack of transparency, and potential copyright issues. Because models are trained on huge datasets with unknown origins, they may unintentionally reproduce inaccurate or biased content.</p>
+              <p>Another risk is over-reliance. ICAEW notes that users may assume AI is always correct, which can lead to the spread of misinformation. Verification and human oversight are essential — especially in academic, legal, or technical tasks where accuracy matters.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="mt-4 reveal">
+      <h2 class="h5">References</h2>
+      <ul class="list-unstyled small">
+        <li><strong>Microsoft — How Generative AI Works:</strong>  
+          <a href="https://www.microsoft.com/en-us/ai/ai-101/how-does-generative-ai-work" target="_blank">https://www.microsoft.com/en-us/ai/ai-101/how-does-generative-ai-work</a>
+        </li>
+        <li><strong>Zapier — Generative AI Tools:</strong>  
+          <a href="https://zapier.com/blog/generative-ai-tools/" target="_blank">https://zapier.com/blog/generative-ai-tools/</a>
+        </li>
+        <li><strong>University of Leeds — Strengths & Weaknesses:</strong>  
+          <a href="https://generative-ai.leeds.ac.uk/intro-gen-ai/strengths-and-weaknesses/" target="_blank">https://generative-ai.leeds.ac.uk/intro-gen-ai/strengths-and-weaknesses/</a>
+        </li>
+        <li><strong>ICAEW — Risks & Limitations:</strong>  
+          <a href="https://www.icaew.com/technical/technology/artificial-intelligence/generative-ai-guide/risks-and-limitations" target="_blank">https://www.icaew.com/technical/technology/artificial-intelligence/generative-ai-guide/risks-and-limitations</a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="bg-white border-top py-3">
+    <div class="container text-center small">
+      © <span id="yr"></span> GenAI Project — Pre-Finals
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
