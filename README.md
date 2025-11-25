@@ -13,8 +13,6 @@ It covers:
 - An analogy on the use of AI in creative and development work  
 - A reflection on integrity, skill, and responsible use of AI tools  
 
----
-
 ## Pages
 
 - **index.html** – Landing page with overview, introduction, and quick navigation  
@@ -22,9 +20,14 @@ It covers:
 - **ethics.html** – Ethical use of AI (plagiarism, bias, accuracy, verification, guidelines)  
 - **article.html** – Analogy article on wedding documentation, integrity, and “vibe coders”  
 
----
-
 ## How to Run the Project
 
 1. Download or clone the repository.  
 2. Ensure the folder structure looks like this:
+
+<img width="963" height="532" alt="image" src="https://github.com/user-attachments/assets/19a7810b-8ad4-4142-9aa8-bff2efb8f8ff" />
+
+3. Open `index.html` in your browser to view the site.
+
+## Deployment Link
+https://japosugac.github.io/Andrew_Pre-Final/?authuser=0 
