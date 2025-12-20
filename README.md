@@ -63,16 +63,16 @@ It covers:
 ## Screenshots
 
 ### Home Page
-![Home Page](assets/imgs/Screenshot%201.png)
+![Home Page](assets/imgs/screenshot-1.png)
 
 ### FAQ Page
-![FAQ Page](assets/imgs/Screenshot%202.png)
+![FAQ Page](assets/imgs/screenshot-2.png)
 
 ### Ethical Use Page
-![Ethical Use Page](assets/imgs/Screenshot%203.png)
+![Ethical Use Page](assets/imgs/screenshot-3.png)
 
 ### Analogy Article Page
-![Article Page](assets/imgs/Screenshot%204.png)
+![Article Page](assets/imgs/screenshot-4.png)
 
 ## Features
 
